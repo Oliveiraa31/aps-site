@@ -1,0 +1,242 @@
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+}
+.body1{
+  border-color: white;
+}
+
+nav {
+ padding: 50px;
+ background-color:rgb(135, 248, 148);
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 25px;
+
+}
+
+.menu-burguer:hover .menu{
+   display: flex;
+
+}
+
+.burguer img{
+  width: 30px;
+  height: 30px;
+}
+
+
+
+.burguer{
+  display: none;
+}
+
+nav a {
+  color: black;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: brown;
+}
+ span{
+  font-size: 18px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+ .img1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  
+
+ }
+
+ .titulo1 {
+  text-align: left;
+  color: green;
+   font-size: 30px;
+   margin-bottom: 25px;
+ }
+
+ .texto p{
+   font-size: 18px;
+ }
+
+ .p1{
+  margin-bottom: 25px;
+}
+
+ .texto{
+  display: flex;
+  justify-content: center;
+
+ }
+
+ .texto2{
+ 
+  top: 170px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 15px;
+ display: flex;
+ justify-content: left;
+   
+ }
+
+ .texto1{
+  text-align: left;
+  margin: 220px;
+  color: green;
+  margin-top: -10px;
+  font-size: 26px;
+  padding: 15px;
+
+ }
+ 
+.caixa {
+ 
+  top: 200px;
+  border: 4px solid rgb(135, 248, 148);
+  border-radius: 10px;
+  height: 50%;
+  width: calc(50% - 10px);
+  text-align: center;
+  padding: 10px;
+  
+}
+
+
+
+#p2{
+  text-align: center;
+  margin: 10px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.container{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 50px ;
+  padding: 0 15px;
+
+}
+
+.caixas{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width: 1190px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 600px) {
+  .caixa {
+    width: 100%;
+    
+  }
+  .titulo1{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .burguer{
+    display: block;
+  }
+
+  .menu-burguer{
+    position: relative;
+   
+  }
+  .menu-burguer .menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    background-color: white;
+    border: 1px solid black;
+    flex-direction: column;
+ 
+ }
+}
+@media (max-width: 420px) {
+  .caixa {
+    width: 100%;
+  }
+}
+
+.quem-somos p {
+  margin-bottom: 20px;
+}
+.quem-somos ul {
+  margin-bottom: 20px;
+}
+.quem-somos ul li {
+  margin-bottom: 20px;
+}
+
+.titulo2{
+  text-align: left;
+  color: green;
+   font-size: 30px;
+   margin-bottom: 25px;
+   margin-left: -2%;
+   margin-top: -2%;
+}
+
+.texto2{
+  margin-left: -2%;
+  font-family:'Montserrat','sans-serif';
+  font-size: 17px;
+
+}
+
+
+.titulo3{
+  text-align: left;
+  color: green;
+   font-size: 30px;
+   margin-bottom: 25px;
+}
+
+.texto3{
+  font-family:'Montserrat','sans-serif';
+  font-size: 17px;
+}
+
+.conteudo ul{
+  padding-left: 20px;
+}
+
+.conteudo li{
+  margin-block: 0.4em;
+  font-family:'Montserrat','sans-serif';
+  font-size: 17px;
+
+}
